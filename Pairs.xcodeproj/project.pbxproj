@@ -9,19 +9,42 @@
 /* Begin PBXBuildFile section */
 		6B8BA151224867BC00007F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA150224867BC00007F77 /* AppDelegate.swift */; };
 		6B8BA153224867BC00007F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA152224867BC00007F77 /* ViewController.swift */; };
-		6B8BA156224867BC00007F77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8BA154224867BC00007F77 /* Main.storyboard */; };
 		6B8BA158224867BD00007F77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8BA157224867BD00007F77 /* Assets.xcassets */; };
 		6B8BA15B224867BD00007F77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B8BA159224867BD00007F77 /* LaunchScreen.storyboard */; };
+		6B8BA164224867E600007F77 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA163224867E600007F77 /* LoginViewController.swift */; };
+		6B8BA1672248680F00007F77 /* CountrySelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA1662248680F00007F77 /* CountrySelectedViewController.swift */; };
+		6B8BA1692248682600007F77 /* CountrySelectedHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA1682248682600007F77 /* CountrySelectedHeader.swift */; };
+		6B8BA16B2248684700007F77 /* CountrySelectedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA16A2248684700007F77 /* CountrySelectedCell.swift */; };
+		6B8BA1702248688300007F77 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA16D2248688300007F77 /* MBProgressHUD.m */; };
+		6B8BA175224868C500007F77 /* SignupWithEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA174224868C500007F77 /* SignupWithEmailViewController.swift */; };
+		6B8BA177224868D900007F77 /* SignupWithPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA176224868D900007F77 /* SignupWithPhoneViewController.swift */; };
+		6B8BA17A2248696A00007F77 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA1792248696A00007F77 /* Country.swift */; };
+		6B8BA17D2248699500007F77 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA17C2248699500007F77 /* UIColor+Extension.swift */; };
+		6B8BA17F224869A800007F77 /* UIView+Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA17E224869A800007F77 /* UIView+Anchors.swift */; };
+		6B8BA182224869C700007F77 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8BA181224869C700007F77 /* Global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B8BA14D224867BC00007F77 /* Pairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B8BA150224867BC00007F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B8BA152224867BC00007F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6B8BA155224867BC00007F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B8BA157224867BD00007F77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B8BA15A224867BD00007F77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B8BA15C224867BD00007F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B8BA163224867E600007F77 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6B8BA1662248680F00007F77 /* CountrySelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectedViewController.swift; sourceTree = "<group>"; };
+		6B8BA1682248682600007F77 /* CountrySelectedHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectedHeader.swift; sourceTree = "<group>"; };
+		6B8BA16A2248684700007F77 /* CountrySelectedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectedCell.swift; sourceTree = "<group>"; };
+		6B8BA16C2248688200007F77 /* Pairs-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pairs-Bridging-Header.h"; sourceTree = "<group>"; };
+		6B8BA16D2248688300007F77 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "../../../Downloads/MBProgressHUD-master/MBProgressHUD.m"; sourceTree = "<group>"; };
+		6B8BA16E2248688300007F77 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "../../../Downloads/MBProgressHUD-master/MBProgressHUD.h"; sourceTree = "<group>"; };
+		6B8BA16F2248688300007F77 /* MBProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD-Prefix.pch"; path = "../../../Downloads/MBProgressHUD-master/MBProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		6B8BA174224868C500007F77 /* SignupWithEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWithEmailViewController.swift; sourceTree = "<group>"; };
+		6B8BA176224868D900007F77 /* SignupWithPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWithPhoneViewController.swift; sourceTree = "<group>"; };
+		6B8BA1792248696A00007F77 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		6B8BA17C2248699500007F77 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		6B8BA17E224869A800007F77 /* UIView+Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Anchors.swift"; sourceTree = "<group>"; };
+		6B8BA181224869C700007F77 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +61,9 @@
 		6B8BA144224867BC00007F77 = {
 			isa = PBXGroup;
 			children = (
+				6B8BA180224869BA00007F77 /* Common */,
+				6B8BA17B2248698800007F77 /* Extensions */,
+				6B8BA1782248694800007F77 /* Models */,
 				6B8BA14F224867BC00007F77 /* Pairs */,
 				6B8BA14E224867BC00007F77 /* Products */,
 			);
@@ -54,14 +80,88 @@
 		6B8BA14F224867BC00007F77 /* Pairs */ = {
 			isa = PBXGroup;
 			children = (
+				6B8BA173224868B100007F77 /* Support file */,
+				6B8BA172224868A800007F77 /* SignupWithPhone */,
+				6B8BA1712248689C00007F77 /* SignupWithEmail */,
+				6B8BA16F2248688300007F77 /* MBProgressHUD-Prefix.pch */,
+				6B8BA16E2248688300007F77 /* MBProgressHUD.h */,
+				6B8BA16D2248688300007F77 /* MBProgressHUD.m */,
+				6B8BA16C2248688200007F77 /* Pairs-Bridging-Header.h */,
+				6B8BA165224867FE00007F77 /* CountrySelected */,
+				6B8BA162224867D300007F77 /* Login */,
 				6B8BA150224867BC00007F77 /* AppDelegate.swift */,
 				6B8BA152224867BC00007F77 /* ViewController.swift */,
-				6B8BA154224867BC00007F77 /* Main.storyboard */,
+			);
+			path = Pairs;
+			sourceTree = "<group>";
+		};
+		6B8BA162224867D300007F77 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BA163224867E600007F77 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6B8BA165224867FE00007F77 /* CountrySelected */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BA1662248680F00007F77 /* CountrySelectedViewController.swift */,
+				6B8BA1682248682600007F77 /* CountrySelectedHeader.swift */,
+				6B8BA16A2248684700007F77 /* CountrySelectedCell.swift */,
+			);
+			path = CountrySelected;
+			sourceTree = "<group>";
+		};
+		6B8BA1712248689C00007F77 /* SignupWithEmail */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BA174224868C500007F77 /* SignupWithEmailViewController.swift */,
+			);
+			path = SignupWithEmail;
+			sourceTree = "<group>";
+		};
+		6B8BA172224868A800007F77 /* SignupWithPhone */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BA176224868D900007F77 /* SignupWithPhoneViewController.swift */,
+			);
+			path = SignupWithPhone;
+			sourceTree = "<group>";
+		};
+		6B8BA173224868B100007F77 /* Support file */ = {
+			isa = PBXGroup;
+			children = (
 				6B8BA157224867BD00007F77 /* Assets.xcassets */,
 				6B8BA159224867BD00007F77 /* LaunchScreen.storyboard */,
 				6B8BA15C224867BD00007F77 /* Info.plist */,
 			);
-			path = Pairs;
+			path = "Support file";
+			sourceTree = "<group>";
+		};
+		6B8BA1782248694800007F77 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BA1792248696A00007F77 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6B8BA17B2248698800007F77 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BA17C2248699500007F77 /* UIColor+Extension.swift */,
+				6B8BA17E224869A800007F77 /* UIView+Anchors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6B8BA180224869BA00007F77 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				6B8BA181224869C700007F77 /* Global.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +196,7 @@
 				TargetAttributes = {
 					6B8BA14C224867BC00007F77 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -124,7 +225,6 @@
 			files = (
 				6B8BA15B224867BD00007F77 /* LaunchScreen.storyboard in Resources */,
 				6B8BA158224867BD00007F77 /* Assets.xcassets in Resources */,
-				6B8BA156224867BC00007F77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +235,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B8BA164224867E600007F77 /* LoginViewController.swift in Sources */,
+				6B8BA17F224869A800007F77 /* UIView+Anchors.swift in Sources */,
+				6B8BA177224868D900007F77 /* SignupWithPhoneViewController.swift in Sources */,
+				6B8BA1692248682600007F77 /* CountrySelectedHeader.swift in Sources */,
+				6B8BA17D2248699500007F77 /* UIColor+Extension.swift in Sources */,
+				6B8BA182224869C700007F77 /* Global.swift in Sources */,
 				6B8BA153224867BC00007F77 /* ViewController.swift in Sources */,
+				6B8BA16B2248684700007F77 /* CountrySelectedCell.swift in Sources */,
+				6B8BA1672248680F00007F77 /* CountrySelectedViewController.swift in Sources */,
 				6B8BA151224867BC00007F77 /* AppDelegate.swift in Sources */,
+				6B8BA1702248688300007F77 /* MBProgressHUD.m in Sources */,
+				6B8BA17A2248696A00007F77 /* Country.swift in Sources */,
+				6B8BA175224868C500007F77 /* SignupWithEmailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6B8BA154224867BC00007F77 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B8BA155224867BC00007F77 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B8BA159224867BD00007F77 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,14 +385,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Pairs/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pairs/Support file/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.athena.Pairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pairs/Pairs-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,14 +405,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Pairs/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pairs/Support file/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.athena.Pairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pairs/Pairs-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
